@@ -1,0 +1,2 @@
+appWeather.factory('getTime', function() {
+});
