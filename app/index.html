@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -9,14 +10,17 @@
 		<header ng-controller="timeController">
 			<h1>{{time}}</h1>
 		</header>
-		<kid>Here</kid>
+		<div weather></div>
 	</div>
+
+
 	<script src="lib/angular/angular.js"></script>
 	<script src="js/app.js"></script>
 	<script src="js/controllers/timeController.js"></script>
 	
-
+	<!-- services -->
 	<script src="js/services/getTime.js"></script>
-
+	<!-- directives -->
+	<script src="js/directives/weatherDirective.js"></script>
 </body>
 </html>
