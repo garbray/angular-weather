@@ -1,0 +1,27 @@
+{
+  "name": "angular-weather",
+  "version": "0.0.1",
+  "description": "test using angular with an API for get the weather",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/garbray/angular-weather.git"
+  },
+  "keywords": [
+    "weather",
+    "angular",
+    "js"
+  ],
+  "author": "Bryan Garzon Bahamon",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/garbray/angular-weather/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.4"
+  }
+}
