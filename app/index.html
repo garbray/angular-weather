@@ -10,16 +10,18 @@
 		<header ng-controller="timeController">
 			<h1 class="alert-box">{{time}}</h1>
 		</header>
-		<div weather></div>
+		<div weather ng-controller="dataController"></div>
 	</div>
 
 
 	<script src="lib/angular/angular.js"></script>
 	<script src="js/app.js"></script>
 	<script src="js/controllers/timeController.js"></script>
+	<script src="js/controllers/dataController.js"></script>
 	
 	<!-- services -->
 	<script src="js/services/getTime.js"></script>
+	<script src="js/services/position.js"></script>
 	<!-- directives -->
 	<script src="js/directives/weatherDirective.js"></script>
 </body>
